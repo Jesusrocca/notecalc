@@ -6,8 +6,8 @@ function calcular() {
   /*
   los nodos que extraes de document no cambiaran, así quedan mejor declaradas como constantes
   */
-  const X = Number(document.getElementById("valor1").value);
-  const XP = Number(document.getElementById("porvalor1").value);
+  const X = document.getElementById("valor1").valueAsNumber;
+  const XP = document.getElementById("porvalor1").valueAsNumber;
 
   // inicilizar variables
   let R1;
@@ -20,8 +20,8 @@ function calcular() {
   /*
   los nodos que extraes de document no cambiaran, así quedan mejor declaradas como constantes
   */
-  const Y = Number(document.getElementById("valor2").value);
-  const YP = Number(document.getElementById("porvalor2").value);
+  const Y = document.getElementById("valor2").valueAsNumber;
+  const YP = document.getElementById("porvalor2").valueAsNumber;
 
   // inicilizar variables
   let R2;
@@ -34,8 +34,8 @@ function calcular() {
   /*
   los nodos que extraes del document no cambiaran, así quedan mejor declaradas como constantes
   */
-  const Z = Number(document.getElementById("valor3").value);
-  const ZP = Number(document.getElementById("porvalor3").value);
+  const Z = document.getElementById("valor3").valueAsNumber;
+  const ZP = document.getElementById("porvalor3").valueAsNumber;
 
   // inicilizar variables
   let R3;
