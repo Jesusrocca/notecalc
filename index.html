@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MI CALCU CON JS</title>
-    <script src="SJS/scripts.js"> </script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="SJS/scripts.js" defer></script>
+  </head>
+  <body>
     <h1>MI CALCULADORA</h1>
     <div class="RPTA1">
-        <form id="MF" >
-            <label>Nota 1: </label>
-            <input type="number" id="valor1" placeholder="Ingrese tu nota">
-            <input type ="number" id ="porvalor1" placeholder="Ingrese el porcentaje">
-            <br>
-            <label>Nota 2: </label>
-            <input type="number"  id="valor2" placeholder="Ingresa tu nota">
-            <input type ="number" id ="porvalor2" placeholder="Ingrese el porcentaje" >
-            <br>
-            <label>Nota 3: </label>
-            <input type="number" id="valor3" placeholder="Ingresa tu nota">
-            <input type ="number" id ="porvalor3" placeholder="Ingrese el porcentaje">
-            <br>
-            <br>
-            <button type="button" onclick="limpiar();">LIMPIAR TODO</button>
-            
-            <button type="button" onclick="calcular();">CALCULAR NOTA</button>
-         
-            <p id="RPTA">Tu nota es: <span id="elresultado"></span></p>
-        </form>
-    </div>    
+      <form id="MF" action="#">
+        <label>Nota 1: </label>
+        <input
+          type="number"
+          id="valor1"
+          placeholder="Ingrese tu nota"
+          name="nota1"
+        />
+        <input
+          type="number"
+          id="porvalor1"
+          placeholder="Ingrese el porcentaje"
+          name="porcentaje1"
+        />
+        <br />
+        <label>Nota 2: </label>
+        <input
+          type="number"
+          id="valor3"
+          placeholder="Ingresa tu nota"
+          name="nota2"
+        />
 
-    <div class="RESULTADO">
-        <h1>A SEGUIR ADELANTE</h1>
+        <input
+          type="number"
+          placeholder="Ingrese el porcentaje"
+          id="porvalor2"
+          name="porcentaje2"
+        />
+        <br />
+        <label>Nota 3: </label>
+        <input
+          type="number"
+          placeholder="Ingresa tu nota"
+          name="nota3"
+          id="valor3"
+        />
+        <input
+          type="number"
+          placeholder="Ingrese el porcentaje"
+          id="porvalor3"
+          name="porcentaje3"
+        />
+        <br />
+        <br />
+        <button type="button" id="buttonLimpiar">LIMPIAR TODO</button>
+        <button type="submit">CALCULAR NOTA</button>
+        <p id="RPTA">Tu nota es: <span id="elresultado"></span></p>
+      </form>
     </div>
 
-</body>
+    <div class="RESULTADO">
+      <h1>A SEGUIR ADELANTE</h1>
+    </div>
+  </body>
 </html>
