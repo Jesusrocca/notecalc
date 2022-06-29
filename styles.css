@@ -2,80 +2,84 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    margin-top: 5%;
-    text-align: center;
+h1 {
+  margin-top: 5%;
+  text-align: center;
 }
 
-#MF{
-    margin: 0 auto;
-    width: 90%;
+#MF {
+  margin: 0 auto;
+  width: 90%;
 
-    text-align:center;
-    border: rgb(0, 0, 0) 2px solid;
-    background-color: #808080;
-    border-radius: 10px;
+  text-align: center;
+  border: rgb(0, 0, 0) 2px solid;
+  background-color: #808080;
+  border-radius: 10px;
 }
 
-#valor1, #porvalor1{
-    margin: 1%;
-    margin-top: 20px;
-    font-size: 20px;
-    border-radius: 10px;
-    max-width: 30%;
+#valor1,
+#porvalor1 {
+  margin: 1%;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  max-width: 30%;
 }
 
-#porvalor1{
-    background-color: rgb(240, 237, 237);
+#porvalor1 {
+  background-color: rgb(240, 237, 237);
 }
 
-#valor2, #porvalor2{
-    margin: 1%;
-    margin-top: 20px;
-    font-size: 20px;
-    border-radius: 10px;
-    max-width: 30%;
+#valor2,
+#porvalor2 {
+  margin: 1%;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  max-width: 30%;
 }
 
-#porvalor2{
-    background-color: rgb(240, 237, 237);
+#porvalor2 {
+  background-color: rgb(240, 237, 237);
 }
 
-#valor3, #porvalor3{
-    margin: 1%;
-    margin-top: 20px;
-    font-size: 20px;
-    border-radius: 10px;
-    max-width: 30%;
+#valor3,
+#porvalor3 {
+  margin: 1%;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  max-width: 30%;
 }
-#porvalor3{
-    background-color: rgb(240, 237, 237);
-}
-
-#RPTA{
-    background-color: yellow;
-    margin-left: 35%;
-    margin-right: 35%;
-    border-radius: 3px;
-    font-size: 25px;
-    text-align: left;  
+#porvalor3 {
+  background-color: rgb(240, 237, 237);
 }
 
-label{
-    font-size: 25px;
+#RPTA {
+  background-color: yellow;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 25px;
+  text-align: left;
+}
+
+label {
+  font-size: 25px;
 }
 
 button {
-    align-items: center;
-    padding: 5px 10px;
-    border-radius: 15px;
-    color: #0b0000;
-    background: rgb(192, 184, 184);
-    font-size: 15px;
-    transition: font-size 0.4s;
-   }
-      
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: #0b0000;
+  background: rgb(192, 184, 184);
+  font-size: 15px;
+  transition: font-size 0.4s;
+}
+
 button:hover {
-    background-color: yellow;
-    font-size: 17px;
+  background-color: yellow;
+  font-size: 17px;
 }
